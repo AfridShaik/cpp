@@ -2,4 +2,4 @@ test.exe: pro.c sum.c diff.c product.c
 	gcc pro.c sum.c diff.c product.c -o test.exe
 
 run: test.exe
-	test.exe
+	./test.exe
